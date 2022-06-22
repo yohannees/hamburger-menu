@@ -1,0 +1,18 @@
+#menu_toggle
+{
+  opacity:o;
+}
+#menu_toggle:checked + .menu_btn > span
+{
+  transform: rotate(45deg);
+}
+#menu_toggle:checked + .menu_btn > span::before
+{
+  top:0;
+  transform: rotate(0deg);
+}
+#menu_toggle:checked + .menu_btn > span::after
+{
+  top:0;
+  transform: rotate(90deg);
+}
