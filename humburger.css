@@ -73,3 +73,7 @@
   text-decoration: none;
   transition-property: .25s;
 }
+.menu_btn:hover
+ {
+  background-color: #cfd8dc;
+ }
